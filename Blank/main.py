@@ -49,7 +49,7 @@ class Game:  # Game class
 
 pygame.init()  # initialisation des modules pygame
 screen = pygame.display.set_mode((1080, 720))  # screen de 1080 pixel sur 720
-pygame.display.set_caption("T'triste")
+pygame.display.set_caption("Blank")
 pygame.display.set_icon(pygame.image.load("images/logo.png"))
 game = Game(screen)
 game.run()
