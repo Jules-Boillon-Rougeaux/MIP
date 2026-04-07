@@ -48,7 +48,7 @@ def principale ():
                 en_jeu = False
             if event.type==pygame.MOUSEBUTTONUP:
                 if event.button == 1 :
-                    (x,y) = pygame.mouse.get_pos(x,y)
+                    (x,y) = pygame.mouse.get_pos()
                     print (x, 'x', y, 'y')
                     surface.fill(exa(i))
                     pygame.display.update()

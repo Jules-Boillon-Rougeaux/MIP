@@ -111,7 +111,7 @@ def principale (table):
 
             if event.type==pygame.MOUSEBUTTONUP:
                 if event.button == 1 :
-                    (x,y) = pygame.mouse.get_pos(x,y)
+                    (x,y) = pygame.mouse.get_pos()
                     print (x, 'x', y, 'y')
                     if e == 1 :
                         if 16 <= x <= 166 and 150 <= y <= 316 :
